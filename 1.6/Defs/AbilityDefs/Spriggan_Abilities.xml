@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <AbilityDef>
+        <defName>ESCP_Ability_Spriggan_Fireball</defName>
+        <label>burning sap</label>
+        <description>The burnt spriggan hurls a ball of burning sap that bursts into flame where it lands.</description>
+        <iconPath>UI/Abilities/FireSpew</iconPath>
+        <hostile>true</hostile>
+        <aiCanUse>true</aiCanUse>
+        <cooldownTicksRange>240</cooldownTicksRange>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <requireLineOfSight>true</requireLineOfSight>
+            <range>19.9</range>
+            <warmupTime>1.8</warmupTime>
+            <soundCast>ESCP_Spriggan_Fireball</soundCast>
+            <targetParams>
+                <canTargetPawns>true</canTargetPawns>
+                <canTargetBuildings>true</canTargetBuildings>
+                <canTargetLocations>false</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityLaunchProjectile">
+                <projectileDef>ESCP_SprigganFireball</projectileDef>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.AbilityExtension_SpellAI">
+                <role>Attack</role>
+            </li>
+        </modExtensions>
+    </AbilityDef>
+
+</Defs>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef>
+		<defName>ESCP_SprigganFireball</defName>
+		<tickerType>Normal</tickerType>
+		<thingClass>Bullet</thingClass>
+		<category>Projectile</category>
+		<label>spriggan fireball</label>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+		<graphicData>
+			<shaderType>Transparent</shaderType>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Projectile/ESCP_FireBall</texPath>
+		</graphicData>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<stoppingPower>0.3</stoppingPower>
+			<speed>50</speed>
+		</projectile>
+	</ThingDef>
+
+</Defs>
