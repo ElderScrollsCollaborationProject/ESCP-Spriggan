@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Mashed's Ashlands</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_Ashlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Parasol>0.05</ESCP_Spriggan_Parasol>
+                            <ESCP_Spriggan_Burnt>0.025</ESCP_Spriggan_Burnt>
+                            <ESCP_Spriggan_Matron>0.01</ESCP_Spriggan_Matron>
+                            <ESCP_Spriggan_EarthMother>0.005</ESCP_Spriggan_EarthMother>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_BlightedAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Burnt>0.02</ESCP_Spriggan_Burnt>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_BlightedBogAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Burnt>0.02</ESCP_Spriggan_Burnt>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_BlightedPetrifiedForestAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Burnt>0.02</ESCP_Spriggan_Burnt>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_BlightedScarAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Burnt>0.02</ESCP_Spriggan_Burnt>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_DustplainAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Parasol>0.05</ESCP_Spriggan_Parasol>
+                            <ESCP_Spriggan_Burnt>0.025</ESCP_Spriggan_Burnt>
+                            <ESCP_Spriggan_Matron>0.01</ESCP_Spriggan_Matron>
+                            <ESCP_Spriggan_EarthMother>0.005</ESCP_Spriggan_EarthMother>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_ForestAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan>0.05</ESCP_Spriggan>
+                            <ESCP_Spriggan_Parasol>0.025</ESCP_Spriggan_Parasol>
+                            <ESCP_Spriggan_Matron>0.01</ESCP_Spriggan_Matron>
+                            <ESCP_Spriggan_EarthMother>0.005</ESCP_Spriggan_EarthMother>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_GrazelandAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Parasol>0.05</ESCP_Spriggan_Parasol>
+                            <ESCP_Spriggan_Burnt>0.025</ESCP_Spriggan_Burnt>
+                            <ESCP_Spriggan_Matron>0.01</ESCP_Spriggan_Matron>
+                            <ESCP_Spriggan_EarthMother>0.005</ESCP_Spriggan_EarthMother>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_HighlandAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Parasol>0.025</ESCP_Spriggan_Parasol>
+                            <ESCP_Spriggan_Burnt>0.025</ESCP_Spriggan_Burnt>
+                            <ESCP_Spriggan_Matron>0.01</ESCP_Spriggan_Matron>
+                            <ESCP_Spriggan_EarthMother>0.005</ESCP_Spriggan_EarthMother>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_MarshAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan>0.05</ESCP_Spriggan>
+                            <ESCP_Spriggan_Parasol>0.025</ESCP_Spriggan_Parasol>
+                            <ESCP_Spriggan_Matron>0.01</ESCP_Spriggan_Matron>
+                            <ESCP_Spriggan_EarthMother>0.005</ESCP_Spriggan_EarthMother>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_MeadowAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan>0.05</ESCP_Spriggan>
+                            <ESCP_Spriggan_Parasol>0.025</ESCP_Spriggan_Parasol>
+                            <ESCP_Spriggan_Matron>0.01</ESCP_Spriggan_Matron>
+                            <ESCP_Spriggan_EarthMother>0.005</ESCP_Spriggan_EarthMother>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_SwampAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Parasol>0.05</ESCP_Spriggan_Parasol>
+                            <ESCP_Spriggan_Bog>0.025</ESCP_Spriggan_Bog>
+                            <ESCP_Spriggan_Matron>0.01</ESCP_Spriggan_Matron>
+                            <ESCP_Spriggan_EarthMother>0.005</ESCP_Spriggan_EarthMother>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_VolcanicAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Burnt>0.05</ESCP_Spriggan_Burnt>
+                            <ESCP_Spriggan_Parasol>0.01</ESCP_Spriggan_Parasol>
+                            <ESCP_Spriggan_Matron>0.01</ESCP_Spriggan_Matron>
+                            <ESCP_Spriggan_EarthMother>0.005</ESCP_Spriggan_EarthMother>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_VolcanicBadlandAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Burnt>0.05</ESCP_Spriggan_Burnt>
+                            <ESCP_Spriggan_Parasol>0.01</ESCP_Spriggan_Parasol>
+                            <ESCP_Spriggan_Matron>0.01</ESCP_Spriggan_Matron>
+                            <ESCP_Spriggan_EarthMother>0.005</ESCP_Spriggan_EarthMother>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_VolcanicBasaltHillsAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Burnt>0.05</ESCP_Spriggan_Burnt>
+                            <ESCP_Spriggan_Parasol>0.01</ESCP_Spriggan_Parasol>
+                            <ESCP_Spriggan_Matron>0.01</ESCP_Spriggan_Matron>
+                            <ESCP_Spriggan_EarthMother>0.005</ESCP_Spriggan_EarthMother>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_VolcanicGroveAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Burnt>0.01</ESCP_Spriggan_Burnt>
+                            <ESCP_Spriggan_Parasol>0.05</ESCP_Spriggan_Parasol>
+                            <ESCP_Spriggan_Matron>0.01</ESCP_Spriggan_Matron>
+                            <ESCP_Spriggan_EarthMother>0.005</ESCP_Spriggan_EarthMother>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="Mashed_Ashlands_VolcanicSulphurPitsAshlands"]/wildAnimals</xpath>
+                    <value>
+                            <ESCP_Spriggan_Burnt>0.05</ESCP_Spriggan_Burnt>
+                            <ESCP_Spriggan_Parasol>0.01</ESCP_Spriggan_Parasol>
+                            <ESCP_Spriggan_Matron>0.01</ESCP_Spriggan_Matron>
+                            <ESCP_Spriggan_EarthMother>0.005</ESCP_Spriggan_EarthMother>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>
